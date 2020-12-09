@@ -1,0 +1,29 @@
+{
+  "nodes": [
+    {
+      "id": "node1",
+      "x": 100,
+      "y": 200,
+      "label": "Source"
+    },
+    {
+      "id": "node2",
+      "x": 300,
+      "y": 200,
+      "label": "Target"
+    },
+    {
+      "id": "node3",
+      "x": 350,
+      "y": 250,
+      "label": "Target"
+    }
+  ],
+  "edges": [
+    {
+      "source": "node1",
+      "target": "node2",
+      "label": "I am an edge"
+    }
+  ]
+}
