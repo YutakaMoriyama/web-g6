@@ -1,0 +1,9 @@
+FROM nginx:1.19.4-alpine
+
+COPY ./webserver/nginx/conf.d /etc/nginx/conf.d
+
+RUN mkdir /usr/share/nginx/html/contents
+
+EXPOSE 8081
+
+CMD ["/usr/sbin/nginx", "-g", "daemon off;"]

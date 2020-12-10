@@ -5,7 +5,7 @@ import store from "./store";
 
 import axios from "axios";
 
-const domain = "http://127.0.0.1:5500";
+const domain = "http://localhost:8081";
 axios.defaults.baseURL = domain;
 store.commit("set_axios", axios);
 
